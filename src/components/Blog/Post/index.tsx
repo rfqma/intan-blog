@@ -26,6 +26,7 @@ export const Post = ({ post, handleDeletePost }: { post: Blog, handleDeletePost:
               src={image}
               alt={title}
               fill
+              className="object-cover object-center"
             />
           </Link>
         </div>
