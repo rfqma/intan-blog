@@ -32,7 +32,7 @@ export const Posts = ({ posts }: { posts: Blog[] }) => {
           <div className="sm:flex sm:flex-col lg:grid lg:grid-cols-3 gap-10 lg:gap-2 -mx-4">
             {
               posts && posts.length > 0 ?
-                posts.map((post: Blog) => {
+                posts.slice().reverse().sort().map((post: Blog) => {
                   return (
                     <div key={post.id} className="px-4">
                       <Post post={post} handleDeletePost={handleDeletePost} />
