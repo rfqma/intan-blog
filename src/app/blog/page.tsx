@@ -1,12 +1,12 @@
 import { Posts } from "@/components/Blog/Posts"
 
 const getPosts = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/blog/get-posts`, {
-    method: 'GET',
-    cache: 'no-store'
-  })
-
   try {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/blog/get-posts`, {
+      method: 'GET',
+      cache: 'no-store'
+    })
+
     const data = await res.json()
 
     if (data.success) {
