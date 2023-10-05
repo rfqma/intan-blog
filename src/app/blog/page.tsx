@@ -6,13 +6,14 @@ const getPosts = async () => {
     cache: 'no-store'
   })
 
-  const data = await res.text()
+  try {
+    const data = await res.json()
 
-  if (data) {
-    const dataJSON = JSON.parse(data)
-    if (dataJSON.success) {
-      return dataJSON.data
+    if (data.success) {
+      return data.data
     }
+  } catch (error) {
+    console.log("error: ", error)
   }
 }
 
