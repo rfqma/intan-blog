@@ -1,0 +1,25 @@
+/* toolbar */
+.ql-toolbar {
+  border: none !important;
+}
+
+.ql-picker-label {
+  @apply dark:text-white
+}
+
+.ql-stroke {
+  @apply dark:stroke-white;
+}
+
+.ql-fill {
+  @apply dark:fill-white;
+}
+
+/* editor */
+.ql-container {
+  border: none !important;
+}
+
+.ql-editor.ql-blank:before {
+  @apply dark:text-body-color
+}
