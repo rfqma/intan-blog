@@ -58,7 +58,7 @@ export const Header = () => {
                     : 'py-8'
                   }`}
                 >
-                  OurBlog
+                  Our Blog
                 </Link>
               </div>
               <div className="flex items-center justify-between w-full px-4">

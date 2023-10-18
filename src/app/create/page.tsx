@@ -130,7 +130,7 @@ export default function CreatePostPage() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mb-12 rounded-md bg-primary/[3%] py-10 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+                <h2 className="mb-3 text-2xl font-semibold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                   Write Your Own Blog Post
                 </h2>
                 <div>

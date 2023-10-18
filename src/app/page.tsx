@@ -8,24 +8,27 @@ export default function HomePage() {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Blog Web App pake Next.js TypeScript, Firebase, PostgreSQL, Prisma, Tailwind CSS, React-Quill dan deploy di Vercel
+                <h1 className="mb-5 text-2xl font-semibold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Web Based Blog App pake Next.js TypeScript, Firebase, PostgreSQL, Prisma, Tailwind CSS, React-Quill dan deploy di Vercel
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  Aplikasi Web Next.js Fullstack buat nulis blog dan
-                  dikelompokkan berdasarkan kategori,
+                <p className="mb-12 text-base font-normal !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                  Aplikasi Blog Berbasis Web buat nulis blog dan dikelompokkan berdasarkan kategori,
                   bisa juga komunikasi lewat kolom komentar di tiap halaman detail postingan.
                   <br />
                   <br />
                   Login dulu kalo mau bikin postingan blog atau komen di postingan blog orang lain.
+                  <br />
+                  <br />
+                  <br />
+                  kepikiran bikin ini karna intan suka nulis 🤓
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                 <Link
-                  className="px-8 py-4 text-base font-semibold text-white rounded-md bg-primary hover:bg-primary/80"
+                  className="px-6 py-2 text-base font-semibold text-white rounded-md bg-primary hover:bg-primary/80"
                   href={"/blog"}
                 >
-                  Explore All Blogs
+                  Explore Blogs
 
                 </Link>
               </div>

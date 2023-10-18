@@ -106,7 +106,7 @@ export const PostDetails = ({ post }: { post: Blog }) => {
                   </div>
                   <p
                     dangerouslySetInnerHTML={{ __html: post.content }}
-                    className="mb-8 text-base font-medium leading-relaxed text-body-color"
+                    className="mb-8 text-base font-normal leading-relaxed text-black dark:text-white"
                   />
                 </div>
               </div>

@@ -23,10 +23,9 @@ const config: Config = {
       current: 'currentColor',
       transparent: 'transparent',
       white: '#ffffff',
-      black: '#05081e',
+      black: '#030712',
       dark: '#1d2144',
       primary: '#334bac',
-      yellow: '#fbb040',
       red: '#c53030',
       'body-color': '#959cb1'
     },
