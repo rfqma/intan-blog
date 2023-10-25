@@ -111,7 +111,8 @@ export default function CreatePostPage() {
         userId: session?.user?.name,
         userImage: session?.user?.image,
         userEmail: session?.user?.email,
-        comments: []
+        comments: [],
+        createdAt: new Date().toISOString(),
       })
     })
 

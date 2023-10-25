@@ -37,4 +37,5 @@ export type Blog = {
   userEmail: string
   comments: string[]
   image: string
+  createdAt: Date
 }

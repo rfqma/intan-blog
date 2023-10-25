@@ -78,6 +78,10 @@ export const PostDetails = ({ post }: { post: Blog }) => {
                       </div>
                       <div className="w-full">
                         <h4 className="mb-1 text-base font-medium text-body-color">
+                          Published at
+                          <span className="pl-2">{post.createdAt.toString().split('T')[0]}</span>
+                        </h4>
+                        <h4 className="mb-1 text-base font-medium text-body-color">
                           By
                           <span className="pl-2">{post.userId.split('_')[0]}</span>
                         </h4>
